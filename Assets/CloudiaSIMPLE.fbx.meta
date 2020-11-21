@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: ac8e529d9f4b9be4fa58abd2c0573171
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: CloudiaSIMPLE(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: metarig
+      parentName: CloudiaSIMPLE(Clone)
+      position: {x: -0, y: -3.206621, z: 0.006131813}
+      rotation: {x: -0.50387925, y: -0.49609047, z: -0.49609149, w: 0.5038782}
+      scale: {x: 948.10223, y: 1386.4086, z: 521.7688}
+    - name: spine
+      parentName: metarig
+      position: {x: -0, y: 0.00055199995, z: 0.010098999}
+      rotation: {x: 0.79045546, y: 0, z: -0, w: 0.61251956}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: spine.002
+      parentName: spine
+      position: {x: 0.0000027499118, y: 0.0016757714, z: -0.00005782863}
+      rotation: {x: -0.13980722, y: -0.000000118038514, z: 0.000000016666318, w: 0.99017876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine.003
+      parentName: spine.002
+      position: {x: 6.9411144e-15, y: 0.0019488538, z: 1.7970821e-11}
+      rotation: {x: 0.043119725, y: -0.000004781148, z: 0.00061078474, w: 0.99906975}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: spine.006
+      parentName: spine.003
+      position: {x: 0.0000046989126, y: 0.0024208329, z: 0.0000478251}
+      rotation: {x: -0.04134008, y: 0.000055129734, z: -0.0007803714, w: 0.99914485}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: spine.006_end
+      parentName: spine.006
+      position: {x: -0, y: 0.0041144537, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.L
+      parentName: spine.003
+      position: {x: -0.00085378153, y: 0.0023739184, z: 0.000036276302}
+      rotation: {x: -0.12153125, y: 0.7170707, z: 0.67659783, w: 0.11513127}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: shoulder.L_end
+      parentName: shoulder.L
+      position: {x: -0, y: 0.0023307235, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shoulder.R
+      parentName: spine.003
+      position: {x: 0.0009085789, y: 0.0023739028, z: 0.00007311041}
+      rotation: {x: 0.72138023, y: 0.09350809, z: 0.089032486, w: -0.680397}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: shoulder.R_end
+      parentName: shoulder.R
+      position: {x: -0, y: 0.0023374236, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.L
+      parentName: spine
+      position: {x: -0.001021289, y: -0.0004512486, z: 0.0005578728}
+      rotation: {x: 0.98424894, y: -0.000000021598808, z: -0.00000012024869, w: 0.17678808}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: thigh.L_end
+      parentName: thigh.L
+      position: {x: -0, y: 0.0039753327, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: thigh.R
+      parentName: spine
+      position: {x: 0.0010230982, y: -0.0004510248, z: 0.00055874337}
+      rotation: {x: 0.9900838, y: 0.00008642397, z: -0.0000309074, w: 0.1404782}
+      scale: {x: 1, y: 1, z: 1.0000021}
+    - name: thigh.R_end
+      parentName: thigh.R
+      position: {x: -0, y: 0.0039534317, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.005
+      parentName: CloudiaSIMPLE(Clone)
+      position: {x: 0.025159061, y: 4.470836, z: -0.0003811579}
+      rotation: {x: -0.7071068, y: 8.892955e-10, z: 7.2442314e-17, w: 0.7071067}
+      scale: {x: 18.5131, y: 42.148186, z: 18.513096}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
